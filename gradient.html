@@ -2,6 +2,16 @@
 <html lang="en">
 <head>
     <style>
+        @keyframes example{
+            0%{background-color:red;}
+            25%{background-color:rgb(4, 0, 255);}
+            50%{background-color:rgb(255, 238, 0);}
+            100%{background-color:rgb(43, 255, 0);}
+
+        }
+div{ animation-name:example ;
+animation-duration:60s;}
+
         #grad1{
             height:2500px;
             background-image:linear-gradient(to top right,red,blue,yellow,green)
@@ -12,7 +22,7 @@
     <title>Football</title>
 </head>
 <body>
-    <div id="grad1"><h1>Football</h1>
+    <div><h1>Football</h1>
     
     
     
